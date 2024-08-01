@@ -30,23 +30,27 @@ Welcome to the Chat Room Application! This application enables users to sign in,
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/chat-room-application.git
+   git clone https://github.com/Sms1818/SpeakEasy.git
    cd chat-room-application
 2. Install dependencies for both client and server
+   ```sh
    cd client
    npm install
    cd ../server
    npm install
 
-3. Create a .env file in the server directory and add your configuration settings:
+4. Create a .env file in the server directory and add your configuration settings:
+   ```sh
    PORT=3001
    STREAM_API_KEY=your_stream_api_key
    STREAM_API_SECRET=your_stream_api_secret
 
-4. cd server
+6. ```sh
+   cd server
    npm start
 
-5. cd client
+8. ```sh
+   cd client
    npm run dev
 
 
